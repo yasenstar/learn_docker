@@ -212,4 +212,9 @@ $ sudo docker run dockerinaction/hello_world
 hello world
 ```
 
-Note: Docker runs as the root user, which need `sudo` in Ubuntu
+_Note: Docker runs as the root user, which need `sudo` in Ubuntu_
+
+Running `docker run` a second time, because the image is already installed, Docker can start the new container right away:
+
+![Running Docker run a second time](https://github.com/yasenstar/learn_docker/blob/master/img/dockerrun_2ndtime.png)
+
