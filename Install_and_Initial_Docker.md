@@ -201,6 +201,10 @@ Status: Downloaded newer image for dockerinaction/hello_world:latest
 hello world
 ```
 
+What happens after running `docker run` for _hello world_:
+
+![What Happens in docker run](https://github.com/yasenstar/learn_docker/blob/master/img/helloworld_whathappens.png)
+
 After this first time, you can get simple answer later on as
 
 ```
@@ -208,3 +212,4 @@ $ sudo docker run dockerinaction/hello_world
 hello world
 ```
 
+Note: Docker runs as the root user, which need `sudo` in Ubuntu
